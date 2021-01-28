@@ -1,0 +1,166 @@
+html {
+    font-family: Merienda;
+    font-size: 16px; 
+}
+
+/*Styling for Header area of page*/
+header {
+    background-color: black;
+    color: white;
+    
+    /*display: grid;
+    grid-template-columns: 2fr 6fr 4fr;
+    justify-content: space-between;
+    align-content:stretch;*/
+    
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+li a {color: white;};
+
+.logo img {
+    height:100%;
+    padding-bottom: 20px;
+    align-self:baseline;
+}
+#home {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(resources/headerbgrnd.jpg);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;   
+}
+
+#home p {
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+/*Styling for Services area of page*/
+.boxServices {
+    background-color: black;
+    color: white;
+    top: 0;
+    padding-top: 40px;
+}
+.boxServices h2 {
+    text-align: center;
+}
+.serviceContainer {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;      
+}
+
+.nutrition {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+    border: 15px solid lightgray;
+    padding: 5px;
+    text-align: center;
+}
+.exercise {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+    border: 15px solid lightgray;
+    padding: 5px;
+    text-align: center;
+}
+.mind {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+    border: 15px solid lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Styling for Team area of page*/
+
+.boxTeam {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    padding: 40px 15px 20px 15px;
+}
+
+
+.teamContainer {
+    
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;      
+}
+
+#founder {
+    
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+    border: 15px solid lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.lucy {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+    border: 15px solid lightgray;
+    padding: 5px;
+    text-align: center;
+    }
+    
+.ben {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+    border: 15px solid lightgray;
+    padding: 5px;
+    text-align: center;   
+}
+
+/*styling for footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-items: center;
+    background-color: lightgray;
+}
+
+
+

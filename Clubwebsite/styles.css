@@ -1,0 +1,199 @@
+/*Global Settings*/
+
+.html {
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 15px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header {
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: darkgrey 3px solid;
+}
+header a {
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 1rem 0 1rem;
+    font: bold;
+}
+
+header h1{
+    float: left;
+    margin: 0;
+}
+
+header nav{
+    float: right;
+}
+
+/* Intro*/
+
+
+#intro .container {
+    background-image: url(resources/friendscook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    margin: 2rem auto;
+    color: white;
+    font-size: 1.5rem;  
+}
+
+/*Images*/
+
+#images .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#images img {
+    max-width: 20rem;
+    height: auto;
+}
+
+/*Events*/
+#events .container {
+    border-top: 1em solid black;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.eventsImg {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.eventsImg img {
+    width: 40%;
+    height: auto;
+}
+#events h2 {
+    font-weight: bolder;
+    text-align: center;
+}
+/*Reference*/   
+
+#reference {
+    background-image: url(resources/friendsdrink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 50rem;
+}
+
+#reference h3 {
+    width:50rem;
+    font-size: 2rem;
+}
+#small {
+    font-size: 1rem;
+}
+
+#contact .container {
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: black;
+    border: 1rem solid black;
+}
+
+#contact h2 {
+    color: white;
+    /*margin-right: inherit;*/}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*Media Queries*/
+/*settings for tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/*settings for mobile*/
+@media only screen and (max-width: 600px) {
+    
+    html {
+        font-size: 8;
+    }
+    
+    header, 
+    header nav, 
+    header nav li {
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        padding-bottom: 2rem;
+    }
+    header h1{
+        padding-bottom: 1rem;
+    }
+    #intro.container  { 
+        background-image: url(resources/friendscooksm.jpg); 
+        background-repeat: no-repeat;
+        font-size: 1.2rem;
+        width:100%;
+            }
+    
+    #images img {
+        padding: 10px;
+    }
+    
+    #events .container {
+        font-size: 1rem;
+    }
+    #reference .container {
+        background-image:url(resources/friendsdrinksm.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+}
+    #reference .container img {
+        width:100%;
+        margin:auto;
+    }
+    #reference .container h3{
+        max-width: 75%;
+        font-size: 1rem;
+    }
+    #small {
+       font-size: 0.75rem; 
+    }
+    
