@@ -27,7 +27,8 @@ nav ul {
 nav li {
   display: inline;
   float: right;
-    padding: 10px 10px;
+  padding: 0px 10px;
+    
     }
 nav a {
     color: white;
@@ -183,7 +184,7 @@ footer {
     }
 
 /*settings for mobile*/
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:420px) {
     
     nav li a{
         font-size: 0.75rem;
